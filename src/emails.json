@@ -1,0 +1,502 @@
+[
+  {
+    "id": "campus_open_mic",
+    "sender": "Leena Rao · Music Society <leena@music.aster.example.test>",
+    "subject": "Music on the lawn: an open mic, not an audition",
+    "text": "Hello everyone,\n\nOur end-of-term music evening is on 2026-11-29 09:00 UTC in the east courtyard. Come for acoustic sets, poetry between songs, or simply a seat on the grass. No membership, audition or ticket is required.\n\nPerformers may bring one song of up to five minutes; a keyboard and two microphones will be available. Please tell the volunteer desk about accessibility or equipment needs when you arrive. The quiet seating area is beside the library entrance.\n\nThis is an optional invitation, not a course requirement. If the weather changes, we will announce the indoor venue here.\n\nLeena, Music Society",
+    "receivedAt": "2026-11-25T09:00:00.000Z",
+    "unread": false,
+    "category": "events",
+    "urgent": false
+  },
+  {
+    "id": "campus_music_rehearsal",
+    "sender": "Omar Kale <omar@music.aster.example.test>",
+    "subject": "Music Society: rehearsal groups and room etiquette",
+    "text": "Hi members,\n\nThe music room now has separate ensemble and solo practice blocks. Please leave ten minutes between bookings, return cables to the labelled hooks, and keep the corridor clear.\n\nNew members are welcome to sit in on the ensemble practice on 2026-11-30 09:00 UTC. This is a club rehearsal rather than a public concert. Nobody needs to prepare an audition piece.\n\nIf you cannot make your slot, reply to the group so somebody else can use it. There is no response deadline.\n\nOmar",
+    "receivedAt": "2026-11-25T06:00:00.000Z",
+    "unread": true,
+    "category": "clubs",
+    "urgent": false
+  },
+  {
+    "id": "campus_film_score",
+    "sender": "Dr Mira Sen <mira.sen@teaching.aster.example.test>",
+    "subject": "Music and meaning: film-score analysis workshop",
+    "text": "Dear students,\n\nFor students enrolled in Sound and Screen, the next seminar examines how a repeated musical phrase changes meaning across a film. Bring notes on one scene; do not prepare a performance.\n\nThe assessed reflection is due 2026-12-02 09:00 UTC. Compare the rhythm, instrumentation and silence in two scenes, using timestamps from the supplied classroom clips. The optional listening circle after class is open to the Music Society, but the reflection remains coursework.\n\nOffice hours are available for anyone who needs an accessible transcript of the clips.\n\nMira Sen",
+    "receivedAt": "2026-11-25T03:00:00.000Z",
+    "unread": true,
+    "category": "academics",
+    "urgent": false
+  },
+  {
+    "id": "campus_listening_notes",
+    "sender": "Nila Park <nila@students.aster.example.test>",
+    "subject": "Those music recommendations from lunch",
+    "text": "Hey,\n\nI finally wrote down the three albums we were trying to remember at lunch. Start with Lantern Harbour if you want something quiet; Copper Kites is the one with the strange time signatures.\n\nNo need to listen before we meet. I just thought the percussion on the last track might interest you. Also, I found your blue notebook under our usual library table and left it at the desk.\n\nSee you around,\nNila",
+    "receivedAt": "2026-11-25T00:00:00.000Z",
+    "unread": false,
+    "category": "general",
+    "urgent": false
+  },
+  {
+    "id": "campus_digital_lab",
+    "sender": "Digital Systems Lab <lab@engineering.aster.example.test>",
+    "subject": "Digital Design lab: bring your counter simulation",
+    "text": "Dear lab group,\n\nThe next Digital Design practical covers synchronous counters and reset behaviour. Bring your simulation waveform and a short explanation of the state transitions. We will test the design on the teaching boards in pairs.\n\nSubmission closes 2026-11-28 09:00 UTC. A photograph of a working board alone is not sufficient: include the circuit description and the edge cases you tested.\n\nIf your simulator cannot export a waveform, bring the project to the lab demonstrator. Please do not purchase any hardware for this exercise.",
+    "receivedAt": "2026-11-24T21:00:00.000Z",
+    "unread": true,
+    "category": "academics",
+    "urgent": false
+  },
+  {
+    "id": "campus_exam_correction",
+    "sender": "Examinations Office <exams@registry.aster.example.test>",
+    "subject": "Correction: probability quiz moved; ignore the earlier reminder",
+    "text": "Dear students,\n\nThe reminder saying the Probability quiz was tomorrow is superseded. The final quiz time is 2026-12-03 09:00 UTC, room C204. No quiz takes place tomorrow.\n\nThe syllabus and permitted formula sheet are unchanged. There is nothing to submit today, and no reply is required. Please use this corrected date when planning travel or requesting accommodations.\n\nWe apologise for the duplicate calendar notice.\nExaminations Office",
+    "receivedAt": "2026-11-24T18:00:00.000Z",
+    "unread": true,
+    "category": "academics",
+    "urgent": false
+  },
+  {
+    "id": "campus_fee_deadline",
+    "sender": "Student Accounts <accounts@registry.aster.example.test>",
+    "subject": "Action required: confirm your fee instalment selection",
+    "text": "Dear student,\n\nYour instalment selection is still unconfirmed. Please confirm it through the student portal before 2026-11-25 15:00 UTC to avoid the late-processing fee. This is the final confirmation step, not a request to pay by email.\n\nIf your scholarship credit is pending, choose the scholarship review option before the same deadline; that records the issue without a payment. The counter in Registry Building is open for help. Never send card details or passwords in a reply.\n\nStudent Accounts",
+    "receivedAt": "2026-11-24T15:00:00.000Z",
+    "unread": false,
+    "category": "administration",
+    "urgent": true
+  },
+  {
+    "id": "campus_research_placement",
+    "sender": "Careers Office <placements@careers.aster.example.test>",
+    "subject": "Summer research placements: accessible computing group",
+    "text": "Hello students,\n\nThe fictional Fern Research Institute is offering summer placements in accessible computing. Projects include tactile interfaces, caption quality and low-cost input devices. Prior publication experience is not required.\n\nApplications close 2026-12-09 09:00 UTC. Prepare a one-page statement and a small example of something you built or investigated. A course project is welcome.\n\nThe careers desk can review statements next week. This announcement is an opportunity, not a promise of selection; no application fee is charged.",
+    "receivedAt": "2026-11-24T12:00:00.000Z",
+    "unread": true,
+    "category": "opportunities",
+    "urgent": false
+  },
+  {
+    "id": "campus_resolved_network",
+    "sender": "Campus IT <service@it.aster.example.test>",
+    "subject": "Re: URGENT network outage — service restored",
+    "text": "Hello,\n\nThis closes the earlier urgent outage notice. Library network service has been restored and no action is required from students. You do not need to change your password or reinstall anything.\n\nThe word URGENT remains in the subject because this is a reply to the original thread. The remaining investigation is for our support team. If a connection still fails, describe the location when contacting the help desk.\n\nCampus IT",
+    "receivedAt": "2026-11-24T09:00:00.000Z",
+    "unread": true,
+    "category": "administration",
+    "urgent": false
+  },
+  {
+    "id": "campus_rehearsal_deadline",
+    "sender": "Rehearsal Coordinator <practice@music.aster.example.test>",
+    "subject": "Music ensemble: confirmation date missing from the room notice",
+    "text": "Hi ensemble,\n\nPlease confirm your availability before the deadline listed on the rehearsal-room notice. I do not have the date or time in this message, and the notice is not included here. I have asked the coordinator to resend it.\n\nI cannot tell whether that deadline is today or later. Please check with the coordinator before making plans. The session itself is still tentative.\n\nRehearsal team",
+    "receivedAt": "2026-11-24T06:00:00.000Z",
+    "unread": false,
+    "category": "clubs",
+    "urgent": null
+  },
+  {
+    "id": "campus_library_hours",
+    "sender": "Library Services <desk@library.aster.example.test>",
+    "subject": "Reading-week library opening hours",
+    "text": "Dear readers,\n\nFrom 2026-12-01 09:00 UTC, the main library will stay open until midnight on weekdays. The reference desk closes at its normal time; the study floors remain accessible using your student card.\n\nQuiet study is on floors two and three. Group discussion rooms may be booked for two hours at a time. No booking is needed for individual desks.\n\nThe north entrance has step-free access throughout the extended hours. Please ask the desk if you need a locker that can hold assistive equipment.",
+    "receivedAt": "2026-11-24T03:00:00.000Z",
+    "unread": true,
+    "category": "administration",
+    "urgent": false
+  },
+  {
+    "id": "campus_robotics_build",
+    "sender": "Jun Vale <jun@robotics.aster.example.test>",
+    "subject": "Robotics Club build night: repair before racing",
+    "text": "Hi builders,\n\nThis week's club session is for repairing last term's line-following robots. New members can join a team even if they have not soldered before; trained volunteers will handle the soldering stations.\n\nBring your test notes, not new parts. The club will supply spare sensors. We will finish with a short demonstration rather than a judged competition.\n\nPlease leave the benches clear for the morning lab. There is no entry fee or registration deadline.",
+    "receivedAt": "2026-11-24T00:00:00.000Z",
+    "unread": true,
+    "category": "clubs",
+    "urgent": false
+  },
+  {
+    "id": "campus_internship_deadline",
+    "sender": "Placement Adviser <adviser@careers.aster.example.test>",
+    "subject": "Internship shortlist: submit your interview availability",
+    "text": "Dear applicant,\n\nYou have been shortlisted for the fictional Northbridge Analytics internship. Please submit three interview windows before 2026-11-25 19:00 UTC; scheduling closes then and unconfirmed applicants cannot be allocated a slot.\n\nUse the application portal you already used. Do not send identity documents by email. If none of the published times works because of an examination, tell the careers desk before the deadline so they can request an alternative.\n\nThis message confirms an interview invitation, not a job offer.",
+    "receivedAt": "2026-11-23T21:00:00.000Z",
+    "unread": false,
+    "category": "opportunities",
+    "urgent": true
+  },
+  {
+    "id": "campus_public_lecture",
+    "sender": "Science Forum <forum@events.aster.example.test>",
+    "subject": "Guest lecture: what can a telescope actually measure?",
+    "text": "Hello campus,\n\nDr Elian Moss will give a public talk on 2026-12-04 09:00 UTC about uncertainty in astronomical measurements. The examples assume no advanced mathematics.\n\nThe talk is open to all departments and includes a question session. Captions and front-row accessible seating will be available. Doors open twenty minutes before the talk.\n\nThis is an optional campus event; it does not replace a scheduled class or carry attendance credit.",
+    "receivedAt": "2026-11-23T18:00:00.000Z",
+    "unread": true,
+    "category": "events",
+    "urgent": false
+  },
+  {
+    "id": "campus_meal_plan",
+    "sender": "Residential Dining <dining@housing.aster.example.test>",
+    "subject": "Dining plan survey: optional feedback for next term",
+    "text": "Dear residents,\n\nWe are collecting feedback on breakfast timing, allergen labels and evening options. Taking part is optional and will not affect your dining plan.\n\nComments will be reviewed after 2026-12-05 09:00 UTC. Please describe a meal or service issue rather than naming individual staff members. For urgent allergy support, contact the dining manager directly instead of waiting for the survey.\n\nThank you for helping us improve the service.",
+    "receivedAt": "2026-11-23T15:00:00.000Z",
+    "unread": true,
+    "category": "administration",
+    "urgent": false
+  },
+  {
+    "id": "campus_keyboard_sale",
+    "sender": "Campus Keys Store <offers@keys.example.test>",
+    "subject": "Music keyboards: student discount weekend",
+    "text": "Hello from Campus Keys,\n\nOur optional student offer reduces selected practice keyboards by fifteen percent this weekend. This is a commercial advertisement; the Music Society does not require members to buy anything.\n\nCompare the full price and warranty before deciding. There is no university deadline and no effect on course participation if you ignore this offer.\n\nYou can ask our shop to remove you from its fictional mailing list. No purchase is needed to attend campus music events.",
+    "receivedAt": "2026-11-23T12:00:00.000Z",
+    "unread": false,
+    "category": "promotional",
+    "urgent": false
+  },
+  {
+    "id": "campus_shared_notes",
+    "sender": "Arun Lake <arun@students.aster.example.test>",
+    "subject": "Mechanics notes from the session you missed",
+    "text": "Hey,\n\nHere is my summary of the part about choosing a coordinate system: draw the axes first, write the constraints, then check the signs with a simple case. I have not checked every calculation, so please compare it with the lecture notes.\n\nThis is just a friend's explanation, not an official answer key or a new assignment. We can go through it over lunch whenever you are free.\n\nArun",
+    "receivedAt": "2026-11-23T09:00:00.000Z",
+    "unread": true,
+    "category": "general",
+    "urgent": false
+  },
+  {
+    "id": "campus_timetable_fragment",
+    "sender": "Notice Relay <relay@notices.aster.example.test>",
+    "subject": "Room B / green copy / revised",
+    "text": "Room B. Green copy replaces blue.\n\nNo event name, sender explanation, date or required action was included in the forwarded fragment. The original notice is unavailable.",
+    "receivedAt": "2026-11-23T06:00:00.000Z",
+    "unread": true,
+    "category": "uncategorized",
+    "urgent": null
+  },
+  {
+    "id": "campus_design_critique",
+    "sender": "Dr Tess Rowan <tess.rowan@design.aster.example.test>",
+    "subject": "Interaction Design: critique is about your decisions",
+    "text": "Dear studio,\n\nFor the next critique, show one interaction that changed after testing. Explain the observation, the design decision and what you still do not know. Polished screens are useful but will not substitute for that explanation.\n\nUpload a two-page process note by 2026-12-06 09:00 UTC. You may use fictional data and should remove participant names. We will discuss accessibility trade-offs in class.\n\nTess Rowan",
+    "receivedAt": "2026-11-23T03:00:00.000Z",
+    "unread": false,
+    "category": "academics",
+    "urgent": false
+  },
+  {
+    "id": "campus_housing_water",
+    "sender": "Residence Office <residence@housing.aster.example.test>",
+    "subject": "Water maintenance: fill a bottle before the evening shutdown",
+    "text": "Dear residents of Cedar House,\n\nWater will be unavailable from 2026-11-25 17:00 UTC for approximately two hours while a valve is replaced. Please fill drinking bottles and finish essential washing before the shutdown starts.\n\nAccessible washrooms with water remain available in Elm House during the work. Contact the residence desk now if you need assistance moving between buildings.\n\nThis notice affects Cedar House only. A completion notice will follow after testing.",
+    "receivedAt": "2026-11-23T00:00:00.000Z",
+    "unread": true,
+    "category": "administration",
+    "urgent": true
+  },
+  {
+    "id": "campus_debate_trial",
+    "sender": "Debating Union <debate@clubs.aster.example.test>",
+    "subject": "Try a debate without joining a team",
+    "text": "Hi everyone,\n\nThe Debating Union is holding a beginner practice on 2026-12-07 09:00 UTC. You can observe the first round and join the second if you like. We supply the topics and explain the format before starting.\n\nThere are no selections at this practice. We are especially interested in people who have never tried debating before. Bring questions and a willingness to listen.\n\nReply only if you need an access adjustment; otherwise just arrive.",
+    "receivedAt": "2026-11-22T21:00:00.000Z",
+    "unread": true,
+    "category": "clubs",
+    "urgent": false
+  },
+  {
+    "id": "campus_hackathon",
+    "sender": "Innovation Desk <innovation@careers.aster.example.test>",
+    "subject": "Applications open: accessible campus tools challenge",
+    "text": "Hello builders,\n\nThe accessible campus tools challenge accepts teams from any discipline. A small working prototype is enough: the judges will ask how you tested it and what its limitations are.\n\nTeam applications close 2026-12-10 09:00 UTC. You may enter a project started in a class if you disclose that background. Participation is optional, and no paid service is required.\n\nAn information session will explain the equipment available for borrowing.",
+    "receivedAt": "2026-11-22T18:00:00.000Z",
+    "unread": false,
+    "category": "opportunities",
+    "urgent": false
+  },
+  {
+    "id": "campus_film_society",
+    "sender": "Film Society <screen@clubs.aster.example.test>",
+    "subject": "Volunteer rota for the student film screening",
+    "text": "Hello volunteers,\n\nPlease check the projection, captions and door rota for our student screening. This message is for the club organising team rather than the public audience.\n\nThe music cue before the screening is already prepared; nobody needs to compose anything. We still need one person for the caption check. Reply when convenient if you can help.\n\nThe public programme will be sent separately once the equipment check is finished.",
+    "receivedAt": "2026-11-22T15:00:00.000Z",
+    "unread": true,
+    "category": "clubs",
+    "urgent": false
+  },
+  {
+    "id": "campus_transcript",
+    "sender": "Registry Records <records@registry.aster.example.test>",
+    "subject": "Your unofficial transcript is ready to review",
+    "text": "Dear student,\n\nAn unofficial transcript is now available in your student portal. Please review your name spelling and completed modules before requesting an official copy.\n\nThere is no immediate deadline in this notice. If a grade appears missing, first check whether the department has released it. Registry cannot amend academic marks directly.\n\nKeep your transcript private and send it only through the approved application channel when needed.",
+    "receivedAt": "2026-11-22T12:00:00.000Z",
+    "unread": true,
+    "category": "administration",
+    "urgent": false
+  },
+  {
+    "id": "campus_calculus_feedback",
+    "sender": "Calculus Teaching Team <calculus@teaching.aster.example.test>",
+    "subject": "Problem set feedback: show the limit you are taking",
+    "text": "Dear class,\n\nFeedback on problem set four is available. The most common issue was substituting a boundary value before establishing whether the limit existed. We will work through two examples in the next tutorial.\n\nThe optional correction exercise is due 2026-12-08 09:00 UTC and does not change the original mark. Explain your reasoning rather than copying a final expression.\n\nIf you think feedback refers to the wrong submission, contact the teaching assistant privately.",
+    "receivedAt": "2026-11-22T09:00:00.000Z",
+    "unread": false,
+    "category": "academics",
+    "urgent": false
+  },
+  {
+    "id": "campus_lost_bottle",
+    "sender": "Suri Reed <suri@students.aster.example.test>",
+    "subject": "Is the orange bottle yours?",
+    "text": "Hi,\n\nThere was an orange water bottle on the bench after our workshop. I left it with the campus centre desk rather than carrying it around. It has a small moon sticker but no name.\n\nIf it is yours, ask the desk when you next pass. No rush from my side. If not, sorry for the extra message!\n\nSuri",
+    "receivedAt": "2026-11-22T06:00:00.000Z",
+    "unread": true,
+    "category": "general",
+    "urgent": false
+  },
+  {
+    "id": "campus_ceramics",
+    "sender": "Arts Centre <arts@events.aster.example.test>",
+    "subject": "Clay afternoon: make an uneven cup with us",
+    "text": "Hello campus,\n\nOur open ceramics afternoon is on 2026-12-11 09:00 UTC. Beginners are welcome; uneven cups are part of the experience. We provide clay, aprons and a short safety introduction.\n\nPlaces are limited by table space, so register if you intend to come. There is no academic credit and attendance is entirely optional. Please tell us about access needs when booking.\n\nFinished pieces can be collected after firing the following week.",
+    "receivedAt": "2026-11-22T03:00:00.000Z",
+    "unread": true,
+    "category": "events",
+    "urgent": false
+  },
+  {
+    "id": "campus_scholarship",
+    "sender": "Student Funding <funding@careers.aster.example.test>",
+    "subject": "Travel scholarship for undergraduate research presentations",
+    "text": "Dear students,\n\nStudents accepted to present undergraduate research may apply for travel support. The committee considers the presentation, the budget and financial need. Acceptance at an event does not guarantee funding.\n\nThe next review closes 2026-12-12 09:00 UTC. Include the acceptance notice and an estimated budget; do not book non-refundable travel on the assumption of an award.\n\nThe funding adviser can explain accessible travel costs and dependent-care support.",
+    "receivedAt": "2026-11-22T00:00:00.000Z",
+    "unread": false,
+    "category": "opportunities",
+    "urgent": false
+  },
+  {
+    "id": "campus_course_sale",
+    "sender": "Skill Orchard <hello@skillorchard.example.test>",
+    "subject": "Optional portfolio course: early registration price",
+    "text": "Hello,\n\nSkill Orchard is advertising a paid portfolio course. The early registration price ends next week, but there is no obligation to enrol and the course is not part of your university programme.\n\nOur fictional offer includes recorded lessons and peer discussion. Please compare it with the free careers workshops already available on campus.\n\nThis is marketing, not a placement guarantee. Ignore the offer if it does not suit your plans.",
+    "receivedAt": "2026-11-21T21:00:00.000Z",
+    "unread": true,
+    "category": "promotional",
+    "urgent": false
+  },
+  {
+    "id": "campus_exam_access",
+    "sender": "Assessment Support <support@exams.aster.example.test>",
+    "subject": "Exam access plan: please confirm the room today",
+    "text": "Dear student,\n\nYour examination access plan has been approved. Please confirm that room A102 meets the agreed access requirements before 2026-11-25 21:00 UTC so the invigilator allocation can be finalised.\n\nReply to the assessment support desk if there is an error; do not send medical details to the class mailing list. The examination date itself has not changed.\n\nIf you cannot check the room in person, the desk can arrange a video walkthrough.",
+    "receivedAt": "2026-11-21T18:00:00.000Z",
+    "unread": true,
+    "category": "academics",
+    "urgent": true
+  },
+  {
+    "id": "campus_choir_invite",
+    "sender": "Choir Convenor <choir@music.aster.example.test>",
+    "subject": "Choir reading session: every voice welcome",
+    "text": "Hello singers,\n\nThe choir will try two new arrangements at the next reading session on 2026-12-13 09:00 UTC. You do not need to read music fluently; section leaders will introduce the parts by ear.\n\nThis is an internal rehearsal with visitors welcome, not a concert or an audition. Please bring water and avoid strongly scented products in the practice room.\n\nThere is no reply deadline. Let the convenor know if you need a large-print part.",
+    "receivedAt": "2026-11-21T15:00:00.000Z",
+    "unread": false,
+    "category": "clubs",
+    "urgent": false
+  },
+  {
+    "id": "campus_date_unknown",
+    "sender": "Forms Desk <forms@registry.aster.example.test>",
+    "subject": "Supporting document reminder — deadline not supplied",
+    "text": "Dear student,\n\nThe copied form notice says a supporting document is due \"before the deadline\", but the date field is blank. We cannot confirm the submission time from this notice.\n\nPlease ask the forms desk for the current deadline and the document name. This fragment does not establish whether any action is due within twenty-four hours. Do not send an unrelated identity document just to satisfy the reminder.",
+    "receivedAt": "2026-11-21T12:00:00.000Z",
+    "unread": true,
+    "category": "administration",
+    "urgent": null
+  },
+  {
+    "id": "campus_astronomy",
+    "sender": "Skywatch Circle <skywatch@clubs.aster.example.test>",
+    "subject": "Skywatch Circle: planning the next observation session",
+    "text": "Hi members,\n\nWe are planning an observation session for later in the term. Before choosing a date, we need to check telescope access and transport back from the field. This message does not confirm an event.\n\nNew volunteers can help with the star chart printouts. The soundtrack suggestion in the meeting notes was just a joke; music is not part of the observing plan.\n\nWe will send a separate announcement when the weather and transport are settled.",
+    "receivedAt": "2026-11-21T09:00:00.000Z",
+    "unread": true,
+    "category": "clubs",
+    "urgent": false
+  },
+  {
+    "id": "campus_design_exhibit",
+    "sender": "Design Gallery <gallery@events.aster.example.test>",
+    "subject": "Student design exhibition: touchable prototypes afternoon",
+    "text": "Hello everyone,\n\nThe gallery opens its student prototype exhibition on 2026-12-14 09:00 UTC. Many exhibits can be handled; please follow the labels and ask before moving a mechanism.\n\nThe Digital Design course has contributed one display, alongside furniture, tactile maps and packaging projects. This invitation concerns the public exhibition, not an assignment or assessment.\n\nQuiet visiting hours and step-free access are available. No ticket or reply is required.",
+    "receivedAt": "2026-11-21T06:00:00.000Z",
+    "unread": false,
+    "category": "events",
+    "urgent": false
+  },
+  {
+    "id": "campus_lab_safety",
+    "sender": "Engineering Teaching Labs <safety@engineering.aster.example.test>",
+    "subject": "Workshop induction before your first practical",
+    "text": "Dear students,\n\nComplete the workshop induction before your first practical next week. It covers eye protection, safe use of the extraction system and how to report a damaged tool.\n\nBook an induction session by 2026-12-15 09:00 UTC. Students who have already completed the current induction do not need to repeat it. Ask the demonstrator if you are unsure which session appears in your record.\n\nThis is a teaching-lab requirement; club membership does not substitute for it.",
+    "receivedAt": "2026-11-21T03:00:00.000Z",
+    "unread": true,
+    "category": "academics",
+    "urgent": false
+  },
+  {
+    "id": "campus_placement_correction",
+    "sender": "Careers Office <placements@careers.aster.example.test>",
+    "subject": "Correction: internship application deadline extended",
+    "text": "Dear applicants,\n\nThe earlier advert listed a closing time six hours from now. That deadline has been replaced: the final application deadline is 2026-12-16 09:00 UTC. The application portal will remain open until then.\n\nAlready submitted applications remain valid. You do not need to submit a second copy, and the extension does not change the eligibility requirements.\n\nPlease plan using this corrected date rather than the old poster.",
+    "receivedAt": "2026-11-21T00:00:00.000Z",
+    "unread": true,
+    "category": "opportunities",
+    "urgent": false
+  },
+  {
+    "id": "campus_bus_timetable",
+    "sender": "Campus Transport <transport@housing.aster.example.test>",
+    "subject": "Weekend shuttle timetable for the campus market",
+    "text": "Dear passengers,\n\nThe weekend shuttle uses the following timetable from 2026-12-17 09:00 UTC. The east gate stop has moved to the sheltered bay. Both services have a low-floor vehicle.\n\nRoute | Departure | Return\nLibrary to market | 09:00 | 12:30\nResidence loop to market | 10:00 | 14:00\n\nThis is a service update, not a booking request. Allow extra time if you need assistance boarding.",
+    "receivedAt": "2026-11-20T21:00:00.000Z",
+    "unread": false,
+    "category": "administration",
+    "urgent": false
+  },
+  {
+    "id": "campus_room_swap",
+    "sender": "Dev Arden <dev@students.aster.example.test>",
+    "subject": "Could we swap our discussion-room booking?",
+    "text": "Hi,\n\nOur project group booked the small room while your group has the large one at the same time next week. Two of our teammates now need to join remotely, and the large room has the working conference speaker.\n\nWould a swap suit your group? If not, no problem; we can find another slot. Please do not cancel your booking before we agree.\n\nThanks,\nDev",
+    "receivedAt": "2026-11-20T18:00:00.000Z",
+    "unread": true,
+    "category": "general",
+    "urgent": false
+  },
+  {
+    "id": "campus_poetry",
+    "sender": "Literary Forum <poetry@events.aster.example.test>",
+    "subject": "Poetry by the pond: listening is participation too",
+    "text": "Hello campus,\n\nThe Literary Forum is holding an outdoor reading on 2026-12-18 09:00 UTC. Bring a short poem if you want to read, or simply come and listen. Pieces in any language are welcome; a brief introduction helps the audience follow.\n\nThere is no competition and no registration requirement. The accessible path reaches the paved seating beside the pond. In rain we will use the campus centre foyer.\n\nPlease leave the space quiet after the final reading.",
+    "receivedAt": "2026-11-20T15:00:00.000Z",
+    "unread": true,
+    "category": "events",
+    "urgent": false
+  },
+  {
+    "id": "campus_security_resolved",
+    "sender": "Campus IT <service@it.aster.example.test>",
+    "subject": "Password reminder withdrawn: no reset needed",
+    "text": "Dear students,\n\nThe automated password reminder sent earlier was a configuration error. Your password has not expired, and you do not need to reset it because of that notice.\n\nWe have disabled the duplicate reminder. Continue using the normal university sign-in page and never share a one-time code with anyone claiming to fix this issue.\n\nThis message closes the incident; it is not an instruction to take immediate action.",
+    "receivedAt": "2026-11-20T12:00:00.000Z",
+    "unread": false,
+    "category": "administration",
+    "urgent": false
+  },
+  {
+    "id": "campus_zine",
+    "sender": "Print Collective <print@clubs.aster.example.test>",
+    "subject": "Campus zine: choosing the next issue together",
+    "text": "Hello collective,\n\nOur next meeting will choose a theme for the student zine. Suggestions so far include everyday journeys, small repairs and the sounds of shared spaces. You do not need a finished piece to take part.\n\nBring one idea and one example of a layout you like. We will agree a production calendar after choosing the theme, so there is no submission deadline yet.\n\nNew contributors and people interested in accessible typography are welcome.",
+    "receivedAt": "2026-11-20T09:00:00.000Z",
+    "unread": true,
+    "category": "clubs",
+    "urgent": false
+  },
+  {
+    "id": "campus_receipt_fragment",
+    "sender": "Forwarding Desk <forward@notices.aster.example.test>",
+    "subject": "FW: reference 4C-18",
+    "text": "Reference 4C-18 received.\n\nThe forwarded text contains no organisation name, purpose, date or request. No original document was included. Please ask the sender for context before treating this as an academic, financial or club notice.",
+    "receivedAt": "2026-11-20T06:00:00.000Z",
+    "unread": true,
+    "category": "uncategorized",
+    "urgent": null
+  },
+  {
+    "id": "campus_data_seminar",
+    "sender": "Open Research Forum <research@events.aster.example.test>",
+    "subject": "Open seminar: useful conclusions from small datasets",
+    "text": "Dear campus community,\n\nJoin our optional research seminar on 2026-12-19 09:00 UTC about what a small dataset can and cannot support. Examples include field notes, interviews and repeated measurements.\n\nThe speaker will discuss uncertainty and reporting limitations. You do not need to install software or upload any personal data.\n\nStudents looking for a research placement may find it useful, but this event is not an internship application or selection round.",
+    "receivedAt": "2026-11-20T03:00:00.000Z",
+    "unread": false,
+    "category": "events",
+    "urgent": false
+  },
+  {
+    "id": "campus_bursary_receipt",
+    "sender": "Student Accounts <accounts@registry.aster.example.test>",
+    "subject": "Bursary confirmation received — no further action",
+    "text": "Dear student,\n\nWe have received your bursary confirmation and applied the credit to your account. The earlier payment reminder can be disregarded for this instalment.\n\nPlease retain this message for your records. If the portal balance does not update by next week, contact Student Accounts with the reference shown there. There is nothing to submit today.\n\nNo banking details are requested in this email.",
+    "receivedAt": "2026-11-20T00:00:00.000Z",
+    "unread": true,
+    "category": "administration",
+    "urgent": false
+  },
+  {
+    "id": "campus_acoustic_workshop",
+    "sender": "Campus Arts <workshops@events.aster.example.test>",
+    "subject": "Music workshop: recording an acoustic instrument",
+    "text": "Hello campus,\n\nThe arts centre is offering a free, optional introduction to recording acoustic instruments on 2026-12-20 09:00 UTC. You can work with the demonstration guitar or bring a small instrument of your own.\n\nWe will compare microphone positions and listen to the difference. This is not a course assessment or a paid certification. Hearing protection and a quieter listening position will be available.\n\nRegister only if you intend to attend; there is no obligation for Music Society members.",
+    "receivedAt": "2026-11-19T21:00:00.000Z",
+    "unread": true,
+    "category": "events",
+    "urgent": false
+  },
+  {
+    "id": "campus_assistantship",
+    "sender": "Learning Centre <work@careers.aster.example.test>",
+    "subject": "Peer learning assistant applications",
+    "text": "Dear students,\n\nThe Learning Centre is recruiting peer assistants for next term. Assistants help students reason through examples; they do not complete assignments or provide answer keys.\n\nApplications close 2026-12-21 09:00 UTC. Include the modules you could support and a short explanation of a concept you once found difficult. Training and accessible teaching materials are provided.\n\nThis is a paid campus role with limited hours, subject to the normal student employment rules.",
+    "receivedAt": "2026-11-19T18:00:00.000Z",
+    "unread": false,
+    "category": "opportunities",
+    "urgent": false
+  },
+  {
+    "id": "campus_photowalk",
+    "sender": "Photo Circle <photo@clubs.aster.example.test>",
+    "subject": "Photo Circle practice: one lens, three viewpoints",
+    "text": "Hi photographers,\n\nAt our next club practice, try photographing the same ordinary object from three viewpoints. A phone camera is enough; please do not buy equipment for the exercise.\n\nWe will share what changed in the composition rather than rank the pictures. Avoid photographing people without their consent, especially inside residences.\n\nMeet outside the student centre next week. We will confirm the time after checking the weather.",
+    "receivedAt": "2026-11-19T15:00:00.000Z",
+    "unread": true,
+    "category": "clubs",
+    "urgent": false
+  },
+  {
+    "id": "campus_book_offer",
+    "sender": "Paper Lantern Books <offers@paperlantern.example.test>",
+    "subject": "Book bundle offer — optional reading, not a course list",
+    "text": "Hello readers,\n\nPaper Lantern Books is advertising a discounted bundle of popular science titles. These are optional purchases and are not required texts for any Aster University course.\n\nThe offer ends next month. Check the library catalogue before buying; several titles may already be available to borrow.\n\nThis is a commercial mailing. No reply, registration or payment is required to keep your university library access.",
+    "receivedAt": "2026-11-19T12:00:00.000Z",
+    "unread": true,
+    "category": "promotional",
+    "urgent": false
+  },
+  {
+    "id": "campus_practical_results",
+    "sender": "Biology Teaching Team <biology@teaching.aster.example.test>",
+    "subject": "Practical feedback and a note about corrected units",
+    "text": "Dear class,\n\nYour practical feedback is available. The posted example originally labelled concentration in millimoles when it should have used micromoles. The corrected worksheet is now the authoritative version.\n\nNo resubmission is required and marks are unchanged. In the next tutorial we will discuss how a units check could catch this error before interpreting a graph.\n\nPlease bring one question about the feedback; it need not be a formal written submission.",
+    "receivedAt": "2026-11-19T09:00:00.000Z",
+    "unread": false,
+    "category": "academics",
+    "urgent": false
+  },
+  {
+    "id": "campus_weekend_plan",
+    "sender": "Isha Cove <isha@students.aster.example.test>",
+    "subject": "Tea after the library on Saturday?",
+    "text": "Hey,\n\nIf you are around this weekend, a few of us are getting tea after the library. Nothing organised and no need to book anything. We will decide where to sit when we get there.\n\nI might be late because of a music practice, so do not wait at the gate. Message me when you finish studying.\n\nIsha",
+    "receivedAt": "2026-11-19T06:00:00.000Z",
+    "unread": true,
+    "category": "general",
+    "urgent": false
+  }
+]

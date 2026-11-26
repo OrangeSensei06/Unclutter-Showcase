@@ -1,0 +1,8 @@
+import { useRef } from 'react';
+import { persist, stored } from './theme';
+export function initialSplit() { const value=Number(stored('unclutter-mail-width','430'));return Number.isFinite(value)?Math.max(300,Math.min(900,value)):430; }
+export function Splitter() {
+  const start=useRef({x:0,width:430}), last=useRef(initialSplit());
+  const resize=(element:HTMLElement,width:number)=>{const pane=element.parentElement!;const maximum=Math.max(300,pane.clientWidth-376);last.current=Math.max(300,Math.min(maximum,width));pane.style.setProperty('--mail-width',`${last.current}px`);element.setAttribute('aria-valuenow',String(Math.round(last.current)));};
+  return <div className="splitter" role="separator" aria-label="Resize mailbox and reader" aria-orientation="vertical" aria-valuemin={300} aria-valuenow={initialSplit()} tabIndex={0} onPointerDown={e=>{start.current={x:e.clientX,width:e.currentTarget.previousElementSibling!.getBoundingClientRect().width};e.currentTarget.setPointerCapture(e.pointerId);e.currentTarget.parentElement!.classList.add('resizing');}} onPointerMove={e=>{if(e.currentTarget.hasPointerCapture(e.pointerId))resize(e.currentTarget,start.current.width+e.clientX-start.current.x);}} onLostPointerCapture={e=>{e.currentTarget.parentElement!.classList.remove('resizing');persist('unclutter-mail-width',String(last.current));}} onPointerUp={e=>{if(e.currentTarget.hasPointerCapture(e.pointerId))e.currentTarget.releasePointerCapture(e.pointerId);}} onKeyDown={e=>{if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight')return;e.preventDefault();resize(e.currentTarget,e.currentTarget.previousElementSibling!.getBoundingClientRect().width+(e.key==='ArrowLeft'?-20:20));persist('unclutter-mail-width',String(last.current));}}><span/></div>;
+}
