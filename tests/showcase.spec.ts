@@ -3,7 +3,7 @@ const base = '/Unclutter-Showcase/';
 test('Home entry, full correction walkthrough, filtering, reset and browser-only network', async ({page})=>{
  const errors:string[]=[], unexpected:string[]=[];page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{const u=new URL(r.url());if(u.origin!=='http://127.0.0.1:4173'||!u.pathname.startsWith(base)||['fetch','xhr','websocket'].includes(r.resourceType()))unexpected.push(r.url());});
  await page.setViewportSize({width:1440,height:1000});await page.goto(base);
- await expect(page.getByRole('heading',{name:'A little room to think.'})).toBeVisible();
+ await expect(page.getByRole('heading',{name:'Your inbox, in your own words.'})).toBeVisible();
  await page.screenshot({path:'.qa/home.png',fullPage:true});await page.getByRole('main').getByRole('link',{name:'Try It Yourself'}).click();
  await expect(page.getByRole('heading',{name:'All mail',exact:true})).toBeVisible();
  await expect(page.locator('.list-title strong')).toHaveText('50 messages');
@@ -44,3 +44,11 @@ test('mobile navigation, reading, correction, focus, dark mode and reduced motio
 });
 
 test('tablet and small mobile page layouts retain the navigation and table',async({page})=>{for(const width of [820,320]){await page.setViewportSize({width,height:900});for(const route of ['','try/','architecture/']){await page.goto(base+route);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await expect(page.getByRole('navigation',{name:'Showcase pages'})).toBeVisible();if(route==='architecture/')await expect(page.getByRole('table')).toBeVisible();}await page.screenshot({path:'.qa/architecture-'+width+'.png',fullPage:true});}});
+
+test('Inbox Desk links, illustrative semantics, keyboard CTA and light/dark mobile layouts',async({page})=>{
+ await page.emulateMedia({reducedMotion:'reduce'});await page.goto(base);await expect(page.getByRole('figure',{name:/An illustrated example/})).toBeVisible();await expect(page.locator('.inbox-desk button')).toHaveCount(0);await expect(page.getByText('Same email. Different rules.')).toBeVisible();await page.getByRole('main').getByRole('link',{name:'Try It Yourself',exact:true}).focus();await page.keyboard.press('Enter');await expect(page.getByRole('heading',{name:'All mail',exact:true})).toBeVisible();
+ await page.goto(base);await page.getByRole('link',{name:'Behind the AI',exact:true}).click();await expect(page.getByRole('heading',{name:'When bigger batches stop paying off'})).toBeVisible();
+ for(const name of ['Read about personal categories','Explore the batching research']){await page.goto(base);await page.getByRole('link',{name,exact:true}).click();await expect(page.locator(locationHash(name))).toBeVisible();}
+ for(const width of [1440,390,320])for(const theme of ['light','dark']){await page.setViewportSize({width,height:900});await page.goto(base);await page.evaluate(t=>{localStorage.setItem('unclutter-appearance',t);window.dispatchEvent(new Event('unclutter-appearance'));},theme);await expect(page.locator('html')).toHaveAttribute('data-theme',theme);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'.qa/home-'+width+'-'+theme+'.png',fullPage:true});}
+});
+function locationHash(name:string){return name.startsWith('Read')?'#personal-title':'#budget-title';}
