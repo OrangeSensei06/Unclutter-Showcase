@@ -52,3 +52,8 @@ test('Inbox Desk links, illustrative semantics, keyboard CTA and light/dark mobi
  for(const width of [1440,390,320])for(const theme of ['light','dark']){await page.setViewportSize({width,height:900});await page.goto(base);await page.evaluate(t=>{localStorage.setItem('unclutter-appearance',t);window.dispatchEvent(new Event('unclutter-appearance'));},theme);await expect(page.locator('html')).toHaveAttribute('data-theme',theme);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);await page.screenshot({path:'.qa/home-'+width+'-'+theme+'.png',fullPage:true});}
 });
 function locationHash(name:string){return name.startsWith('Read')?'#personal-title':'#budget-title';}
+
+test('authorized mascot decodes and exact favicon bytes work on all static routes',async({page,request})=>{
+ const {createHash}=await import('node:crypto');const expected='8b83a598d3ac0c62b11be8a612b33e83d9c7cb82d5cc44affccd0179fe347679';
+ for(const route of ['','try/','architecture/']){await page.goto(base+route);const image=page.locator('.site-header .brand-mascot');await expect(image).toBeVisible();await expect(image).toHaveAttribute('src',base+'brand/sleepy-cat.png');expect(await image.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth===1254&&e.naturalHeight===1254)).toBe(true);const href=await page.locator('link[rel="icon"]').getAttribute('href');expect(href).toBe(base+'brand/sleepy-cat.png');const response=await request.get(href!);expect(response.status()).toBe(200);expect(response.headers()['content-type']).toContain('image/png');const bytes=await response.body();expect(bytes.length).toBe(1210492);expect(createHash('sha256').update(bytes).digest('hex')).toBe(expected);await page.reload();await expect(image).toBeVisible();}
+});

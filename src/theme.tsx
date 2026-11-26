@@ -28,7 +28,7 @@ export function ThemeController() {
   return null;
 }
 export function Icon({ name }: { name: string }) { return <span className="ui-icon" aria-hidden="true"><img className="icon-light" src={`${import.meta.env.BASE_URL}design/icon-${name}.svg`} alt=""/><img className="icon-dark" src={`${import.meta.env.BASE_URL}design/dark-icon-${name}.svg`} alt=""/></span>; }
-export function Brand({ large = false }: { large?: boolean }) { return <a className={`brand ${large ? 'brand-large' : ''}`} href={import.meta.env.BASE_URL} aria-label="Unclutter home"><Icon name="spark"/><span>unclutter<span className="brand-dot">.</span></span></a>; }
+export function Brand({ large = false }: { large?: boolean }) { return <a className={`brand ${large ? 'brand-large' : ''}`} href={import.meta.env.BASE_URL} aria-label="Unclutter home"><img className="brand-mascot" src={import.meta.env.BASE_URL+'brand/sleepy-cat.png'} width="38" height="38" alt=""/><span>unclutter<span className="brand-dot">.</span></span></a>; }
 
 type RGB = [number, number, number];
 const clamp = (v: number) => Math.max(0, Math.min(1, v));
