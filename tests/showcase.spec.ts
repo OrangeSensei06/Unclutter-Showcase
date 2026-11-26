@@ -29,7 +29,7 @@ test('direct static page navigation and accurate accessible architecture table',
  for(const route of ['', 'try/','try/index.html','architecture/','architecture/index.html']){const response=await request.get(base+route);expect(response.status()).toBe(200);await page.goto(base+route);await expect(page.getByRole('main')).toBeVisible();if(route.startsWith('try'))await expect(page.getByRole('heading',{name:'All mail',exact:true})).toBeVisible();else if(route.startsWith('architecture'))await expect(page.getByRole('heading',{name:'When bigger batches stop paying off'})).toBeVisible();}
  await page.goto(base+'architecture/');await expect(page.getByRole('table')).toBeVisible();
  const rows=page.getByRole('table').getByRole('row');await expect(rows).toHaveCount(5);await expect(rows.nth(1)).toContainText('6,633');await expect(rows.nth(2)).toContainText('4,347');await expect(rows.nth(3)).toContainText('4,349');await expect(rows.nth(4)).toContainText('4,349');
- await expect(page.getByText(/34.5% fewer tokens/)).toBeVisible();await page.screenshot({path:'.qa/architecture.png',fullPage:true});
+ await expect(page.getByText('34.5%',{exact:true})).toBeVisible();await page.screenshot({path:'.qa/architecture.png',fullPage:true});
 });
 test('mobile navigation, reading, correction, focus, dark mode and reduced motion',async({page})=>{
  await page.setViewportSize({width:390,height:844});await page.emulateMedia({reducedMotion:'reduce'});await page.goto(base+'try/');
@@ -56,4 +56,9 @@ function locationHash(name:string){return name.startsWith('Read')?'#personal-tit
 test('authorized mascot decodes and exact favicon bytes work on all static routes',async({page,request})=>{
  const {createHash}=await import('node:crypto');const expected='8b83a598d3ac0c62b11be8a612b33e83d9c7cb82d5cc44affccd0179fe347679';
  for(const route of ['','try/','architecture/']){await page.goto(base+route);const image=page.locator('.site-header .brand-mascot');await expect(image).toBeVisible();await expect(image).toHaveAttribute('src',base+'brand/sleepy-cat.png');expect(await image.evaluate((e:HTMLImageElement)=>e.complete&&e.naturalWidth===1254&&e.naturalHeight===1254)).toBe(true);const href=await page.locator('link[rel="icon"]').getAttribute('href');expect(href).toBe(base+'brand/sleepy-cat.png');const response=await request.get(href!);expect(response.status()).toBe(200);expect(response.headers()['content-type']).toContain('image/png');const bytes=await response.body();expect(bytes.length).toBe(1210492);expect(createHash('sha256').update(bytes).digest('hex')).toBe(expected);await page.reload();await expect(image).toBeVisible();}
+});
+
+test('engineering figures remain readable without horizontal scrolling in light and dark',async({page})=>{
+ await page.emulateMedia({reducedMotion:'reduce'});
+ for(const width of [1440,390,320])for(const theme of ['light','dark']){await page.setViewportSize({width,height:900});await page.goto(base+'architecture/');await page.evaluate(t=>{localStorage.setItem('unclutter-appearance',t);window.dispatchEvent(new Event('unclutter-appearance'));},theme);await expect(page.locator('html')).toHaveAttribute('data-theme',theme);await expect(page.getByRole('figure',{name:/Figure 1/})).toBeVisible();await expect(page.getByRole('figure',{name:/Figure 2/})).toBeVisible();expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(await page.locator('.eng-map, .eng-flow, .eng-benchmark table').evaluateAll(els=>els.every(e=>e.scrollWidth<=e.clientWidth+1))).toBe(true);await page.screenshot({path:'.qa/engineering-'+width+'-'+theme+'.png',fullPage:true});}
 });
